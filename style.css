@@ -84,15 +84,16 @@ img {
     display: flex;
     max-width: 1440px;
     margin: 0 auto;
-    padding-top: 0;
+    padding-top: 2%;
   }
   #testimanial-5 {
-    flex-basis: 20%;
+    flex-basis: 15%;
+    
   }
   #main-left {
     display: flex;
     flex-direction: column;
-    flex-basis: 70%;
+    flex-basis: 65%;
   }
   #top,
   #bottom {
