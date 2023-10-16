@@ -1,0 +1,115 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(210, 46%, 95%);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+#testimanial-grid-container {
+  padding: 15% 3%;
+}
+#testimanial-1 {
+  background-color: hsl(263, 55%, 52%);
+  color: hsl(0, 0%, 100%);
+  position: relative;
+  z-index: -1;
+}
+/* To put quotes under the text*/
+#testimanial-1 .header-txt, h4  {
+  position: relative;
+  z-index: 3;
+  
+}
+#testimanial-2 {
+  background-color: hsl(217, 19%, 35%);
+  color: hsl(0, 0%, 100%);
+}
+#testimanial-3 ,#testimanial-5 {
+  background-color: hsl(0, 0%, 100%);
+  color:  hsl(219, 29%, 14%);
+}
+#testimanial-4 {
+  background-color: hsl(219, 29%, 14%);
+  color: hsl(0, 0%, 100%);
+}
+
+.grid-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 13px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px rgb(0,0,0,0.2);
+}
+.grid-item h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  }
+#quote {
+  position: absolute;
+  right: 5%;
+  top: 0;
+  z-index: 1;
+  height: 35%;
+}
+img {
+  border-radius: 50%;
+  
+  margin-right: 10px;
+}
+#border {
+  border: 2px solid hsl(263, 38%, 52%);
+}
+/* to put text next to img need to make flex container.To make text align with img aligh-items on vertical axis */
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  
+}
+.header p {
+  font-weight: 600;
+  font-size: 1rem;
+  /* To put name &Verified grad without big gap*/
+  margin: auto;
+}
+.verified {
+  opacity: 50%;
+}
+.testimonial {
+  opacity: 70%;
+}
+
+@media (min-width: 576px) {
+  #testimanial-grid-container {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 0;
+  }
+  #testimanial-5 {
+    flex-basis: 20%;
+  }
+  #main-left {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+  }
+  #top,
+  #bottom {
+    display: flex;
+    flex-basis: 50%;
+  }
+
+  #testimanial-1,
+  #testimanial-4 {
+    flex-basis: 60%;
+  }
+  #testimanial-2,
+  #testimanial-3 {
+    flex-basis: 25%;
+  }
+
+  #main-left .grid-item {
+    margin-right: 20px;
+  }
+}
