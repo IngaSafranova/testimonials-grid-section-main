@@ -4,6 +4,11 @@ html {
 body {
   background-color: hsl(210, 46%, 95%);
   font-family: 'Barlow Semi Condensed', sans-serif;
+  min-height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;  */
+  margin-left: 10%;
 }
 #testimanial-grid-container {
   padding: 15% 3%;
