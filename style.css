@@ -5,9 +5,9 @@ body {
   background-color: hsl(210, 46%, 95%);
   font-family: 'Barlow Semi Condensed', sans-serif;
   min-height: 100vh;
-  /* display: flex;
+   display: flex;
   justify-content: center;
-  align-items: center;  */
+  align-items: center;  
   margin-left: 10%;
 }
 #testimanial-grid-container {
